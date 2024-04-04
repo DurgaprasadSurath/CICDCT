@@ -1,5 +1,6 @@
 ﻿to launchNopcommerceApplication
 	Run "CommonUtilities/VariableData"
+	wait 10
 	"CommonUtilities/Core".launchURL Global Browser, Global Url
 	"CommonUtilities/Core".verifyEvent "logos/Nopcommerce", "Application Launched.", "Failed to Launch Application."	
 	"CommonUtilities/Custom".captureScreenShot "ApplicationView"
