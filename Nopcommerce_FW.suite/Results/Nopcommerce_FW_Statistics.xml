@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="CommonUtilities/Core">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-04-03 10:44:29 +0530</FirstRun>
+  <LastRun>2024-04-03 10:44:29 +0530</LastRun>
+  <TotalTimeOnSuccess>0.208000</TotalTimeOnSuccess>
+ </script>
+ <script name="TestCases/Testcase4_Registration">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-08-14 12:52:04 +0530</FirstRun>
+  <LastRun>2023-08-14 12:52:04 +0530</LastRun>
+  <TotalTimeOnSuccess>23.210000</TotalTimeOnSuccess>
+ </script>
+ <script name="TestCases/TC01_NewRegister">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>29</NumberOfRuns>
+  <NumberOfFails>19</NumberOfFails>
+  <FirstRun>2024-01-16 21:16:23 +0530</FirstRun>
+  <LastRun>2024-04-03 11:11:49 +0530</LastRun>
+  <TotalTimeOnSuccess>1951.405000</TotalTimeOnSuccess>
+ </script>
+ <script name="TestCases/Testcase3_Books">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-08-14 12:42:34 +0530</FirstRun>
+  <LastRun>2023-10-20 17:47:10 +0530</LastRun>
+  <TotalTimeOnSuccess>126.892000</TotalTimeOnSuccess>
+ </script>
+ <script name="TestCases/Testcase2_Clothing">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2023-08-14 12:31:38 +0530</FirstRun>
+  <LastRun>2023-10-20 14:04:07 +0530</LastRun>
+  <TotalTimeOnSuccess>98.482000</TotalTimeOnSuccess>
+ </script>
+ <script name="TestCases/Testcase1_Computers">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>15</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2023-08-11 12:19:17 +0530</FirstRun>
+  <LastRun>2023-10-20 12:51:51 +0530</LastRun>
+  <TotalTimeOnSuccess>872.325000</TotalTimeOnSuccess>
+ </script>
+ <script name="ApplicationUtilities/RegisterPage">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-04-03 09:53:27 +0530</FirstRun>
+  <LastRun>2024-04-03 09:53:27 +0530</LastRun>
+  <TotalTimeOnSuccess>0.016000</TotalTimeOnSuccess>
+ </script>
+</statistics>

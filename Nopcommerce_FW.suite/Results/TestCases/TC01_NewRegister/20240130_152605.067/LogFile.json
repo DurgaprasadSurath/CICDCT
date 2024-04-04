@@ -1,0 +1,190 @@
+{
+	"entries": [
+		{
+				"message": "Running TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "START",
+				"timestamp": "2024-01-30 15:26:05.076 +0530"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-30 15:26:05.342 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-30 15:26:07.911 +0530",
+				"message": "Chrome --incognito https://demo.nopcommerce.com/[returnKey]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-30 15:26:09.172 +0530",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-30 15:26:12.145 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (382, 193)",
+				"image": "logos/Nopcommerce",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-30 15:26:12.152 +0530",
+				"message": "Application Launched.",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_capturescreenshot",
+				"timestamp": "2024-01-30 15:26:12.783 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"image": "HomePage_0001.png",
+				"handlerLine": 2,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_movetoevent",
+				"timestamp": "2024-01-30 15:26:16.582 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "at (526, 294)",
+				"image": "(TEXT:\"Computers\")",
+				"handlerLine": 5,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_clickevent",
+				"timestamp": "2024-01-30 15:26:58.924 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "at (531, 338)",
+				"image": "(TEXT:\"Desktops\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-30 15:27:15.903 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (531, 337)",
+				"image": "(TEXT:\"Desktops\")",
+				"handlerLine": 5,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-30 15:27:15.907 +0530",
+				"message": "Desktops page is loaded successful.",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_capturescreenshot",
+				"timestamp": "2024-01-30 15:27:16.264 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"image": "DesktopsPage_0001.png",
+				"handlerLine": 2,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_scrollto",
+				"timestamp": "2024-01-30 15:28:17.772 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "Unable to Find Image (TEXT:\"Build your own computer\"). Text not found.",
+				"image": "(TEXT:\"Build your own computer\")",
+				"handlerLine": 14,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollto",
+				"timestamp": "2024-01-30 15:28:18.973 +0530",
+				"message": "moved 5",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 15,
+				"identifier": "scrollwheeldown"
+			},
+		{
+				"handlerName": "on_scrollto",
+				"timestamp": "2024-01-30 15:28:35.157 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (783, 917)",
+				"image": "(TEXT:\"Build your own computer\")",
+				"handlerLine": 21,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-30 15:28:39.840 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "at (783, 872)",
+				"image": "(TEXT:\"Build your own computer\")",
+				"handlerLine": 3,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-30 15:28:40.124 +0530",
+				"message": "SEARCHRECTANGLE = [[683,822],[983,1072]]",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 4,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-30 15:28:40.690 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "found at (768, 984)",
+				"image": "(TEXT:\"ADD TO CART\")",
+				"handlerLine": 5,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-30 15:28:41.341 +0530",
+				"message": "at (768, 984)",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-30 15:28:41.352 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 20,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_clickeventoffset",
+				"timestamp": "2024-01-30 15:29:46.335 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"RAM\")\". Text not found.",
+				"image": "(TEXT:\"RAM\")",
+				"handlerLine": 5,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"221.488\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-01-30 15:26:05 +0530\", Successes:\"0\", TestCase:\"TestCases/TC01_ReadPriceOfDesktop.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-01-30 15:29:46.572 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Text Found On Screen: \"(TEXT:\"RAM\")\". Text not found. -- Execution Time 0:03:41 TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-01-30 15:29:47.018 +0530"
+			}
+	],
+	"createdTimestamp": "2024-01-30 15:26:05.080 +0530"
+}

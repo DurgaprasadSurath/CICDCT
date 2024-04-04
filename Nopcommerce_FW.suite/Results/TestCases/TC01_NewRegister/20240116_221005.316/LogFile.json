@@ -1,0 +1,524 @@
+{
+	"entries": [
+		{
+				"message": "Running TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "START",
+				"timestamp": "2024-01-16 22:10:05.325 +0530"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-16 22:10:05.723 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-16 22:10:08.675 +0530",
+				"message": "Chrome --incognito https://demo.nopcommerce.com/[returnKey]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-16 22:10:09.820 +0530",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-16 22:10:11.661 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (382, 193)",
+				"image": "logos/Nopcommerce",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-16 22:10:11.667 +0530",
+				"message": "Application Launched.",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_capturescreenshot",
+				"timestamp": "2024-01-16 22:10:12.153 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "UserCapturedScreenshot",
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240116_221005.316/HomePage_0001.png",
+				"handlerLine": 2,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_movetoevent",
+				"timestamp": "2024-01-16 22:10:14.176 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "at (526, 294)",
+				"image": "(TEXT:\"Computers\")",
+				"handlerLine": 5,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_clickevent",
+				"timestamp": "2024-01-16 22:10:16.846 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "at (531, 337)",
+				"image": "(TEXT:\"Desktops\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-16 22:10:18.708 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (531, 337)",
+				"image": "(TEXT:\"Desktops\")",
+				"handlerLine": 5,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-16 22:10:18.714 +0530",
+				"message": "Desktops page is loaded successful.",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_capturescreenshot",
+				"timestamp": "2024-01-16 22:10:19.134 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "UserCapturedScreenshot",
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240116_221005.316/DesktopsPage_0001.png",
+				"handlerLine": 2,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_scrollto",
+				"timestamp": "2024-01-16 22:10:52.662 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (783, 917)",
+				"image": "(TEXT:\"Build your own computer\")",
+				"handlerLine": 14,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:10:54.560 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "at (783, 917)",
+				"image": "(TEXT:\"Build your own computer\")",
+				"handlerLine": 3,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:10:54.654 +0530",
+				"message": "SEARCHRECTANGLE = [[683,867],[983,1117]]",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 4,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:10:58.232 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "Unable to Find Image (TEXT:\"ADD TO CART\"). Text not found.",
+				"image": "(TEXT:\"ADD TO CART\")",
+				"handlerLine": 5,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:10:58.249 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 8,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:01.350 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "at (783, 917)",
+				"image": "(TEXT:\"Build your own computer\")",
+				"handlerLine": 9,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:01.462 +0530",
+				"message": "SEARCHRECTANGLE = [[683,867],[983,1117]]",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 10,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:05.266 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "Unable to Find Image (TEXT:\"ADD TO CART\"). Text not found.",
+				"image": "(TEXT:\"ADD TO CART\")",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:05.287 +0530",
+				"message": "moved 3",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 12,
+				"identifier": "scrollwheeldown"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:05.293 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 13,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:09.583 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "at (783, 617)",
+				"image": "(TEXT:\"Build your own computer\")",
+				"handlerLine": 14,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:09.734 +0530",
+				"message": "SEARCHRECTANGLE = [[683,567],[983,817]]",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:09.978 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "found at (768, 756)",
+				"image": "(TEXT:\"ADD TO CART\")",
+				"handlerLine": 17,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:10.278 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "found at (768, 756)",
+				"image": "(TEXT:\"ADD TO CART\")",
+				"handlerLine": 18,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:10.398 +0530",
+				"message": "at (768, 756)",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 18,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addproducttocart",
+				"timestamp": "2024-01-16 22:11:10.405 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 20,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_clickeventoffset",
+				"timestamp": "2024-01-16 22:11:20.177 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "at (940, 829)",
+				"image": "(TEXT:\"RAM\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitforvalidation",
+				"timestamp": "2024-01-16 22:11:23.147 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (956, 882)",
+				"image": "(TEXT:\"2 GB\")",
+				"handlerLine": 6,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickevent",
+				"timestamp": "2024-01-16 22:11:26.022 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "at (956, 882)",
+				"image": "(TEXT:\"2 GB\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_scrollto",
+				"timestamp": "2024-01-16 22:11:28.323 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (944, 874)",
+				"image": "(TEXT:\"HDD\")",
+				"handlerLine": 14,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_clickeventoffset",
+				"timestamp": "2024-01-16 22:11:30.923 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "at (935, 899)",
+				"image": "(TEXT:\"HDD\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_scrollto",
+				"timestamp": "2024-01-16 22:12:30.742 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "Unable to Find Image (TEXT:\"ADD TO CART\"). Text not found.",
+				"image": "(TEXT:\"ADD TO CART\")",
+				"handlerLine": 14,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_scrollto",
+				"timestamp": "2024-01-16 22:12:30.905 +0530",
+				"message": "moved 5",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 15,
+				"identifier": "scrollwheeldown"
+			},
+		{
+				"handlerName": "on_scrollto",
+				"timestamp": "2024-01-16 22:12:36.105 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (1046, 838)",
+				"image": "(TEXT:\"ADD TO CART\")",
+				"handlerLine": 21,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_textentryoffset",
+				"timestamp": "2024-01-16 22:12:40.425 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "at (966, 833)",
+				"image": "(TEXT:\"ADD TO CART\")",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentryoffset",
+				"timestamp": "2024-01-16 22:12:41.178 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentryoffset",
+				"timestamp": "2024-01-16 22:12:41.915 +0530",
+				"message": "2",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_capturescreenshot",
+				"timestamp": "2024-01-16 22:12:42.340 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "UserCapturedScreenshot",
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240116_221005.316/FilledOptions_0001.png",
+				"handlerLine": 2,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_clickevent",
+				"timestamp": "2024-01-16 22:12:46.266 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "at (1046, 838)",
+				"image": "(TEXT:\"ADD TO CART\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-16 22:13:19.830 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (122, 110)",
+				"image": "(TEXT:\"The product has been added to your\")",
+				"handlerLine": 5,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-16 22:13:19.838 +0530",
+				"message": "Product is added to Cart",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_capturescreenshot",
+				"timestamp": "2024-01-16 22:13:20.488 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "UserCapturedScreenshot",
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240116_221005.316/Message_0001.png",
+				"handlerLine": 2,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_scrolltobeginingofpage",
+				"timestamp": "2024-01-16 22:13:20.709 +0530",
+				"message": "[homeKey]",
+				"scriptName": "CommonUtilities/BrowserUtilities.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clickevent",
+				"timestamp": "2024-01-16 22:13:25.380 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "at (1478, 108)",
+				"image": "(TEXT:\"Shopping cart\")",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_waitforvalidation",
+				"timestamp": "2024-01-16 22:13:37.703 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (644, 438)",
+				"image": "(TEXT:\"Product(s)\")",
+				"handlerLine": 6,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_capturescreenshot",
+				"timestamp": "2024-01-16 22:13:38.283 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "UserCapturedScreenshot",
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240116_221005.316/CartPage_0001.png",
+				"handlerLine": 2,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_readpriceandtotal",
+				"timestamp": "2024-01-16 22:13:43.088 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "at (1206, 437)",
+				"image": "(TEXT:\"Price\")",
+				"handlerLine": 2,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_readpriceandtotal",
+				"timestamp": "2024-01-16 22:13:43.099 +0530",
+				"message": "SEARCHRECTANGLE = [[1176,467],[1276,637]]",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 3,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_readpriceandtotal",
+				"timestamp": "2024-01-16 22:13:43.390 +0530",
+				"message": "(1176,467,1276,637)",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 4,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readpriceandtotal",
+				"timestamp": "2024-01-16 22:13:43.398 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 5,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_readpriceandtotal",
+				"timestamp": "2024-01-16 22:13:48.552 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"message": "at (1398, 437)",
+				"image": "(TEXT:\"Total\")",
+				"handlerLine": 6,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_readpriceandtotal",
+				"timestamp": "2024-01-16 22:13:48.562 +0530",
+				"message": "SEARCHRECTANGLE = [[1368,467],[1468,637]]",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 7,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_readpriceandtotal",
+				"timestamp": "2024-01-16 22:13:48.897 +0530",
+				"message": "(1368,467,1468,637)",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 8,
+				"identifier": "readtext"
+			},
+		{
+				"handlerName": "on_readpriceandtotal",
+				"timestamp": "2024-01-16 22:13:48.905 +0530",
+				"message": "$1,315.00",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 9,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_readpriceandtotal",
+				"timestamp": "2024-01-16 22:13:48.914 +0530",
+				"message": "S2:630.00",
+				"scriptName": "CommonUtilities/Custom.script",
+				"handlerLine": 10,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_scrolltobeginingofpage",
+				"timestamp": "2024-01-16 22:13:49.130 +0530",
+				"message": "[homeKey]",
+				"scriptName": "CommonUtilities/BrowserUtilities.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_settextstyle",
+				"timestamp": "2024-01-16 22:13:49.215 +0530",
+				"message": "TEXTSTYLE = {contrast:\"On\", contrastColor:[200,200,200], contrastTolerance:\"45\"}",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 9,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_scrollto",
+				"timestamp": "2024-01-16 22:13:50.878 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (1246, 695)",
+				"image": "(TEXT:\"Continue shopping\")",
+				"handlerLine": 14,
+				"identifier": "imagefound"
+			},
+		{
+				"message": "(Duration:\"282.688\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-01-16 22:10:05 +0530\", Successes:\"0\", TestCase:\"TestCases/TC01_ReadPriceOfDesktop.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-01-16 22:14:48.023 +0530"
+			},
+		{
+				"message": "Execution Time 0:04:42 TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-01-16 22:14:48.052 +0530"
+			}
+	],
+	"createdTimestamp": "2024-01-16 22:10:05.332 +0530"
+}

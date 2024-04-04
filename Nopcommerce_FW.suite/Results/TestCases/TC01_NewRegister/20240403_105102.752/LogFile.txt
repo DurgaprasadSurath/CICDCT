@@ -1,0 +1,4 @@
+﻿2024-04-03 10:51:02.758 +0530	START		Running TestCases/TC01_NewRegister.script
+2024-04-03 10:51:11.919 +0530	Log		Application Launched.	3	on_verifyevent	CommonUtilities/Core.script
+2024-04-03 10:53:38.087 +0530	EndTestCase		(Duration:"155.309", Errors:"1", Exceptions:"1", StartTime:"2024-04-03 10:51:02 +0530", Successes:"0", TestCase:"TestCases/TC01_NewRegister.script", Warnings:"0")
+2024-04-03 10:53:38.255 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:"CONTINUE")". Text not found. -- Execution Time 0:02:35 TestCases/TC01_NewRegister.script

@@ -1,0 +1,53 @@
+{
+	"entries": [
+		{
+				"message": "Running TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "START",
+				"timestamp": "2024-03-20 09:39:09.231 +0530"
+			},
+		{
+				"handlerName": "on_openrunwindow",
+				"timestamp": "2024-03-20 09:39:09.720 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openrunwindow",
+				"timestamp": "2024-03-20 09:39:19.051 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (100, 893)",
+				"image": "(TEXT:\"Type the\")",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-03-20 09:39:20.707 +0530",
+				"message": "Chrome --incognito https://demo.nopcommerce.com/[returnKey]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-03-20 09:39:21.474 +0530",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"21.304\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-03-20 09:39:09 +0530\", Successes:\"0\", TestCase:\"TestCases/TC01_ReadPriceOfDesktop.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-03-20 09:39:30.539 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:21 TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-03-20 09:39:30.569 +0530"
+			}
+	],
+	"createdTimestamp": "2024-03-20 09:39:09.234 +0530"
+}

@@ -1,0 +1,66 @@
+﻿to selectGender
+	"CommonUtilities/Core".clickEvent Global Gender
+end selectGender
+
+to fillFirstnameField
+	"CommonUtilities/Core".clickEvent "First name"
+	"CommonUtilities/Core".textEntry Global Firstname
+end fillFirstnameField
+
+to fillLastnameField
+	"CommonUtilities/Core".clickEvent "Last name"
+	"CommonUtilities/Core".textEntry Global Lastname
+end fillLastnameField
+
+to selectDOB
+	"CommonUtilities/Core".clickEvent "Day"
+	"CommonUtilities/Core".textEntry Global Day
+	"CommonUtilities/Core".clickEvent "Month"
+	"CommonUtilities/Core".textEntry Global Month
+	"CommonUtilities/Core".clickEvent "Year"
+	"CommonUtilities/Core".textEntry Global Year
+end selectDOB
+
+to fillEmailField
+	"CommonUtilities/Core".clickEvent "Email"
+	"CommonUtilities/Core".textEntry Global Email
+end fillEmailField
+
+to fillCompanynameField
+	"CommonUtilities/Core".scrollTo "Company name", "VerticalMiddle" 
+	"CommonUtilities/Core".clickEvent "Company name"
+	"CommonUtilities/Core".textEntry Global Companyname
+end fillCompanynameField
+
+to checkNewsletter
+	"CommonUtilities/Core".scrollTo "Newsletter", "VerticalMiddle" 
+	"CommonUtilities/Core".clickEvent "Newsletter"
+end checkNewsletter
+
+to fillPasswordField
+	"CommonUtilities/Core".clickEvent "Password:"
+	"CommonUtilities/Core".textEntry Global Password
+end fillPasswordField
+
+to fillConfirmPasswordField
+	"CommonUtilities/Core".scrollTo "Confirm password", "VerticalMiddle" 
+	"CommonUtilities/Core".clickEvent "Confirm password"
+	"CommonUtilities/Core".textEntry Global Confirmpassword
+end fillConfirmPasswordField
+
+to hitRegisterButton	
+	"CommonUtilities/Core".setTextstyle "CS"
+	"CommonUtilities/Core".scrollTo "REGISTER", "VerticalMiddle" 
+	"CommonUtilities/Core".clickEvent "REGISTER"
+	"CommonUtilities/Core".setTextstyle "Default"
+end hitRegisterButton
+
+to hitContinueButton
+	"CommonUtilities/Core".setTextstyle "CS"
+	"CommonUtilities/Core".clickEvent "CONTINUE"
+	"CommonUtilities/Core".setTextstyle "Default"
+end hitContinueButton
+
+to ChangePasswordPopup
+	"CommonUtilities/Core".clickEvent "OK"
+end ChangePasswordPopup

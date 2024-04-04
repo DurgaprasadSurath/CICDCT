@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="TestCases/TC01_NewRegister_script" package="Nopcommerce_FW.suite" timestamp="2024-04-03 10:51:02.752 +0530"
+ tests="1"  failures="1" errors="0" time="155.319000">
+  <properties>
+   <property name="RunDate" value="2024-04-03 10:51:02.752 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="TestCases/TC01_NewRegister.script" assertions="1" status="error"  time="155.309">
+    <failure type="FAILURE" message="Image Not Found: click Error - No Text Found On Screen: &quot;(TEXT:&quot;CONTINUE&quot;)&quot;. Text not found. -- Execution Time 0:02:35 TestCases/TC01_NewRegister.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

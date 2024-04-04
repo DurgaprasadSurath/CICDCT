@@ -1,0 +1,8 @@
+﻿to selectContinueShopping
+	"CommonUtilities/BrowserSC".scrollToBeginingOfPage
+	"CommonUtilities/Core".setTextstyle "GrayText"
+	"CommonUtilities/Core".scrollTo "Continue shopping", "FullScreen"
+	"CommonUtilities/Core".clickAtLocation FoundImageLocation()
+	"CommonUtilities/Core".setTextstyle "Default"
+	"CommonUtilities/Custom".captureScreenShot "ProductsPage"
+end selectContinueShopping

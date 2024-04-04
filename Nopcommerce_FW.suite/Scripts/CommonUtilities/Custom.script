@@ -1,0 +1,10 @@
+﻿to captureScreenShot screenShotName
+	CaptureScreen name:screenShotName, increment:Yes
+end captureScreenShot
+
+
+to clikSubMenu menu, subMenu
+	"CommonUtilities/Core".moveToEvent menu
+	wait 0.5
+	"CommonUtilities/Core".clickEvent subMenu
+end clikSubMenu

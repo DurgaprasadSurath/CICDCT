@@ -1,0 +1,49 @@
+﻿2024-02-14 14:50:31.211 +0530	START		Running TestCases/TC01_ReadPriceOfDesktop.script
+2024-02-14 14:50:31.665 +0530	typetext		[windowsKey]r	3	on_launchurl	CommonUtilities/Core.script
+2024-02-14 14:50:34.259 +0530	typetext		Chrome --incognito https://demo.nopcommerce.com/[returnKey]	5	on_launchurl	CommonUtilities/Core.script
+2024-02-14 14:50:35.015 +0530	typetext		[windowsKey][upArrow]	6	on_launchurl	CommonUtilities/Core.script
+2024-02-14 14:50:36.862 +0530	imagefound	logos/Nopcommerce	found at (382, 227)	3	on_verifyevent	CommonUtilities/Core.script
+2024-02-14 14:50:36.866 +0530	Log		Application Launched.	3	on_verifyevent	CommonUtilities/Core.script
+2024-02-14 14:50:37.180 +0530	capturescreen	HomePage_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-02-14 14:50:39.547 +0530	moveto	(TEXT:"Computers")	at (526, 328)	5	on_movetoevent	CommonUtilities/Core.script
+2024-02-14 14:50:42.705 +0530	click	(TEXT:"Desktops")	at (531, 371)	5	on_clickevent	CommonUtilities/Core.script
+2024-02-14 14:50:44.798 +0530	imagefound	(TEXT:"Desktops")	found at (531, 371)	5	on_verifyevent	CommonUtilities/Core.script
+2024-02-14 14:50:44.802 +0530	Log		Desktops page is loaded successful.	5	on_verifyevent	CommonUtilities/Core.script
+2024-02-14 14:50:45.157 +0530	capturescreen	DesktopsPage_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-02-14 14:51:28.287 +0530	imagefound	(TEXT:"Build your own computer")	found at (783, 951)	14	on_scrollto	CommonUtilities/Core.script
+2024-02-14 14:51:30.968 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 951)	3	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:31.062 +0530	set		SEARCHRECTANGLE = [[683,901],[983,1151]]	4	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:34.597 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	5	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:34.612 +0530	set		SEARCHRECTANGLE = 	8	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:37.312 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 951)	9	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:37.405 +0530	set		SEARCHRECTANGLE = [[683,901],[983,1151]]	10	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:40.886 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	11	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:40.950 +0530	scrollwheeldown		moved 3	12	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:40.956 +0530	set		SEARCHRECTANGLE = 	13	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:45.861 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 751)	14	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:45.957 +0530	set		SEARCHRECTANGLE = [[683,701],[983,951]]	15	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:46.244 +0530	imagefound	(TEXT:"ADD TO CART")	found at (768, 890)	17	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:46.508 +0530	imagefound	(TEXT:"ADD TO CART")	found at (768, 890)	18	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:46.632 +0530	click		at (768, 890)	18	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:51:46.638 +0530	set		SEARCHRECTANGLE = 	20	on_addproducttocart	CommonUtilities/Custom.script
+2024-02-14 14:52:03.601 +0530	click	(TEXT:"RAM")	at (940, 863)	5	on_clickeventoffset	CommonUtilities/Core.script
+2024-02-14 14:52:10.731 +0530	waitfor	(TEXT:"2 GB")	found at (956, 916)	6	on_waitforvalidation	CommonUtilities/Core.script
+2024-02-14 14:52:13.412 +0530	click	(TEXT:"2 GB")	at (956, 916)	5	on_clickevent	CommonUtilities/Core.script
+2024-02-14 14:52:15.889 +0530	imagefound	(TEXT:"HDD")	found at (944, 908)	14	on_scrollto	CommonUtilities/Core.script
+2024-02-14 14:52:18.412 +0530	click	(TEXT:"320 GB")	at (974, 939)	5	on_clickevent	CommonUtilities/Core.script
+2024-02-14 14:53:15.108 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	14	on_scrollto	CommonUtilities/Core.script
+2024-02-14 14:53:15.166 +0530	scrollwheeldown		moved 5	15	on_scrollto	CommonUtilities/Core.script
+2024-02-14 14:53:18.102 +0530	imagefound	(TEXT:"ADD TO CART")	found at (1046, 772)	21	on_scrollto	CommonUtilities/Core.script
+2024-02-14 14:53:20.285 +0530	click	(TEXT:"ADD TO CART")	at (966, 767)	2	on_textentryoffset	CommonUtilities/Core.script
+2024-02-14 14:53:21.047 +0530	typetext		[controlKey]a	4	on_textentryoffset	CommonUtilities/Core.script
+2024-02-14 14:53:21.797 +0530	typetext		2	6	on_textentryoffset	CommonUtilities/Core.script
+2024-02-14 14:53:22.236 +0530	capturescreen	FilledOptions_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-02-14 14:53:24.566 +0530	click	(TEXT:"ADD TO CART")	at (1046, 772)	5	on_clickevent	CommonUtilities/Core.script
+2024-02-14 14:53:30.623 +0530	imagefound	(TEXT:"The product has been added to your")	found at (122, 144)	5	on_verifyevent	CommonUtilities/Core.script
+2024-02-14 14:53:30.627 +0530	Log		Product is added to Cart	5	on_verifyevent	CommonUtilities/Core.script
+2024-02-14 14:53:30.952 +0530	capturescreen	Message_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-02-14 14:53:31.089 +0530	typetext		[homeKey]	2	on_scrolltobeginingofpage	CommonUtilities/BrowserUtilities.script
+2024-02-14 14:53:33.807 +0530	click	(TEXT:"Shopping cart")	at (1478, 142)	5	on_clickevent	CommonUtilities/Core.script
+2024-02-14 14:53:40.603 +0530	waitfor	(TEXT:"Product(s)")	found at (583, 472)	6	on_waitforvalidation	CommonUtilities/Core.script
+2024-02-14 14:53:41.170 +0530	EndTestCase		(Duration:"189.95", Errors:"1", Exceptions:"0", StartTime:"2024-02-14 14:50:31 +0530", Successes:"0", TestCase:"TestCases/TC01_ReadPriceOfDesktop.script", Warnings:"0")
+2024-02-14 14:53:41.301 +0530	FAILURE	Screen_Error.png	No Connection: No Connection to Server\nKalyan_SUT63\n -- Execution Time 0:03:09 TestCases/TC01_ReadPriceOfDesktop.script

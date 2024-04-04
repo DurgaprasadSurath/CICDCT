@@ -1,0 +1,59 @@
+{
+	"entries": [
+		{
+				"message": "Running TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "START",
+				"timestamp": "2024-01-17 20:48:15.581 +0530"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-17 20:48:16.097 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-17 20:48:18.691 +0530",
+				"message": "Chrome --incognito https://demo.nopcommerce.com/[returnKey]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-17 20:48:19.455 +0530",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-17 20:48:19.897 +0530",
+				"message": "Retrieving Frame Buffer:No Connection to Server\\nKalyan_SUT63\\n",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 3,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"4.595\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-01-17 20:48:15 +0530\", Successes:\"0\", TestCase:\"TestCases/TC01_ReadPriceOfDesktop.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-01-17 20:48:20.185 +0530"
+			},
+		{
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240117_204815.572/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-01-17 20:48:20.411 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "No Remote Connection: imagefound Error - Retrieving Frame Buffer:No Connection to Server\\nKalyan_SUT63\\n -- Execution Time 0:00:04 TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-01-17 20:48:20.419 +0530"
+			}
+	],
+	"createdTimestamp": "2024-01-17 20:48:15.588 +0530"
+}

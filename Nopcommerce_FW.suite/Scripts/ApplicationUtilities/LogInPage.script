@@ -1,0 +1,27 @@
+﻿to fillEmailField
+	"CommonUtilities/Core".textEntryOffset "Email", Global Username, [90,0]
+end fillEmailField
+
+to fillPasswordField
+	"CommonUtilities/Core".textEntryOffset "Password", Global Password, [90,0]
+end fillPasswordField
+
+to hitLOGIN
+	"CommonUtilities/Core".clickEvent "LOG IN", "Log out"
+	"CommonUtilities/Core".verifyEvent "Log out", "Log In is successful", "Failed to Log In"
+	"CommonUtilities/Custom".captureScreenShot "LoggedInPage"
+end hitLOGIN
+
+to checkRememberMe
+	"CommonUtilities/Core".clickEvent "Remember me"
+end checkRememberMe
+
+to hitForgotPassword
+	"CommonUtilities/Core".clickEvent "Forgot password"
+end hitForgotPassword
+
+to hitRegister
+	"CommonUtilities/Core".setTextstyle "CS"
+	"CommonUtilities/Core".clickEvent "REGISTER"
+	"CommonUtilities/Core".setTextstyle "Default"
+end hitRegister

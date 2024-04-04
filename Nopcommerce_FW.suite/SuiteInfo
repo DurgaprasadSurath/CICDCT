@@ -1,0 +1,1 @@
+﻿{EPVersionNumber = 202402221200; Schedules = ({ChangeCount = 4; Name = "Schedule 1"; Path = "~~schedule~~Schedule 1"; Schedule = ({Num = 1; Run = YES; Script = "TestCases/TC01_ReadPriceOfDesktop.script"; }); }); ScriptMetaData = {}; SuiteEncodedTextKey = "z_q3e5<2SxMLIKq$"; helpedSuitesInfo = (); helperSuitesInfo = (); }

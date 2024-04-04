@@ -1,0 +1,114 @@
+﻿to gotoHome
+	"CommonUtilities/Core".clickEvent "logos/Nopcommerce"
+	wait 1
+	"CommonUtilities/Custom".captureScreenShot "HomePage"
+end gotoHome
+
+to hoverOnComputers
+	"CommonUtilities/Core".moveToEvent "Computers"
+end hoverOnComputers
+
+to navigateToDesktops
+	"CommonUtilities/Core".clickEvent "Desktops"
+	"CommonUtilities/Core".verifyEvent "Desktops", "Desktops page is loaded successful.", "Failed to Desktops page."
+	"CommonUtilities/Custom".captureScreenShot "DesktopsPage"
+end navigateToDesktops
+
+to navigateToNotebooks
+	"CommonUtilities/Core".clickEvent "Notebooks"
+	"CommonUtilities/Core".verifyEvent "Notebooks", "Notebooks page is loaded successful.", "Failed to Notebooks page."
+	"CommonUtilities/Custom".captureScreenShot "NotebooksPage"
+end navigateToNotebooks
+
+to navigateToSoftware
+	"CommonUtilities/Core".clickEvent "Software"
+	"CommonUtilities/Core".verifyEvent "Software", "Software page is loaded successful.", "Failed to Software page."
+	"CommonUtilities/Custom".captureScreenShot "SoftwarePage"
+end navigateToSoftware
+
+to hoverOnElectronics
+	"CommonUtilities/Core".moveToEvent "Electronics"
+end hoverOnElectronics
+
+to navigateToCameraPhoto
+	"CommonUtilities/Core".clickEvent "Camera & photo"
+	"CommonUtilities/Core".verifyEvent "Camera & photo", "Camera & photo page is loaded successful.", "Failed to Camera & photo page."
+	"CommonUtilities/Custom".captureScreenShot "CameraphotoPage"
+end navigateToCameraPhoto
+
+to navigateToCellphones
+	"CommonUtilities/Core".clickEvent "Cell phones"
+	"CommonUtilities/Core".verifyEvent "Cell phones", "Cell phones page is loaded successful.", "Failed to Cell phones page."
+	"CommonUtilities/Custom".captureScreenShot "CellphonesPage"
+end navigateToCellphones
+
+to navigateToOthers
+	"CommonUtilities/Core".clickEvent "Others"
+	"CommonUtilities/Core".verifyEvent "Others", "Others page is loaded successful.", "Failed to Others page."
+	"CommonUtilities/Custom".captureScreenShot "OthersPage"
+end navigateToOthers
+
+to hoverOnApparel
+	"CommonUtilities/Core".moveToEvent "Apparel"
+end hoverOnApparel
+
+to navigateToShoes
+	"CommonUtilities/Core".clickEvent "Shoes"
+	"CommonUtilities/Core".verifyEvent "Shoes", "Shoes page is loaded successful.", "Failed to Shoes page."
+	"CommonUtilities/Custom".captureScreenShot "OthersPage"
+end navigateToShoes
+
+to navigateToClothing
+	"CommonUtilities/Core".clickEvent "Clothing"
+	"CommonUtilities/Core".verifyEvent "Clothing", "Clothing page is loaded successful.", "Failed to Clothing page."
+	"CommonUtilities/Custom".captureScreenShot "ClothingPage"
+end navigateToClothing
+
+to navigateToAccessories
+	"CommonUtilities/Core".clickEvent "Accessories"
+	"CommonUtilities/Core".verifyEvent "Accessories", "Accessories page is loaded successful.", "Failed to Accessories page."
+	"CommonUtilities/Custom".captureScreenShot "AccessoriesPage"
+end navigateToAccessories
+
+to navigateToDigitaldownloads
+	"CommonUtilities/Core".clickEvent "Digital downloads"
+	"CommonUtilities/Core".verifyEvent "Digital downloads", "Digital downloads page is loaded successful.", "Failed to Digital downloads page."
+	"CommonUtilities/Custom".captureScreenShot "DigitaldownloadsPage"
+end navigateToDigitaldownloads
+
+to navigateToBooks
+	"CommonUtilities/Core".clickEvent "Books"
+	"CommonUtilities/Core".verifyEvent "Books", "Books page is loaded successful.", "Failed to Books page."
+	"CommonUtilities/Custom".captureScreenShot "BooksPage"
+end navigateToBooks
+
+to navigateToJewelry
+	"CommonUtilities/Core".clickEvent "Jewelry"
+	"CommonUtilities/Core".verifyEvent "Jewelry", "Jewelry page is loaded successful.", "Failed to Jewelry page."
+	"CommonUtilities/Custom".captureScreenShot "JewelryPage"
+end navigateToJewelry
+
+to navigateGiftcards
+	"CommonUtilities/Core".clickEvent "Gift Cards"
+	"CommonUtilities/Core".verifyEvent "Gift Cards", "Gift Cards page is loaded successful.", "Failed to Gift Cards page."
+	"CommonUtilities/Custom".captureScreenShot "GiftCardsPage"
+end navigateGiftcards
+
+to navigateToRegister
+	"CommonUtilities/BrowserSC".scrollToBeginingOfPage
+	"CommonUtilities/Core".clickEvent "Register", "Your Personal Details"
+	"CommonUtilities/Custom".captureScreenShot "RegisterPage"
+end navigateToRegister
+
+to navigateToLogIn
+	"CommonUtilities/BrowserSC".scrollToBeginingOfPage
+	"CommonUtilities/Core".clickEvent "Log In", "Welcome, Please Sign In"
+	"CommonUtilities/Custom".captureScreenShot "LogInPage"
+end navigateToLogIn
+
+to navigateToShoppingCart
+	"CommonUtilities/BrowserSC".scrollToBeginingOfPage
+	"CommonUtilities/Core".clickEvent "Shopping cart", "Shopping cart"
+	"CommonUtilities/Custom".captureScreenShot "CartPage"
+end navigateToShoppingCart
+

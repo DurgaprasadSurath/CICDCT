@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1706684183.8099999,
+	"ocrcapturestring": "1/31/2024",
+	"originalcapturelocation": [
+		1807,
+		1060,
+		59,
+		18
+	],
+	"createddate": 1706684183.8099999,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "1/31/2024",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_66",
+					"HotSpot": "[29,9]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					1807,
+					1060,
+					59,
+					18
+				],
+				"name": "1312024.png"
+			}
+	],
+	"name": "1312024"
+}

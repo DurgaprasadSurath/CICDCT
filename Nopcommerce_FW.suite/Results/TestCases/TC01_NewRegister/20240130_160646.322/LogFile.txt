@@ -1,0 +1,49 @@
+﻿2024-01-30 16:06:46.343 +0530	START		Running TestCases/TC01_ReadPriceOfDesktop.script
+2024-01-30 16:06:46.672 +0530	typetext		[windowsKey]r	3	on_launchurl	CommonUtilities/Core.script
+2024-01-30 16:06:49.237 +0530	typetext		Chrome --incognito https://demo.nopcommerce.com/[returnKey]	5	on_launchurl	CommonUtilities/Core.script
+2024-01-30 16:06:49.998 +0530	typetext		[windowsKey][upArrow]	6	on_launchurl	CommonUtilities/Core.script
+2024-01-30 16:06:54.092 +0530	imagefound	logos/Nopcommerce	found at (382, 193)	3	on_verifyevent	CommonUtilities/Core.script
+2024-01-30 16:06:54.096 +0530	Log		Application Launched.	3	on_verifyevent	CommonUtilities/Core.script
+2024-01-30 16:06:54.489 +0530	capturescreen	HomePage_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-30 16:06:56.183 +0530	moveto	(TEXT:"Computers")	at (526, 294)	5	on_movetoevent	CommonUtilities/Core.script
+2024-01-30 16:06:58.748 +0530	click	(TEXT:"Desktops")	at (531, 337)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-30 16:07:05.507 +0530	imagefound	(TEXT:"Desktops")	found at (531, 337)	5	on_verifyevent	CommonUtilities/Core.script
+2024-01-30 16:07:05.510 +0530	Log		Desktops page is loaded successful.	5	on_verifyevent	CommonUtilities/Core.script
+2024-01-30 16:07:05.862 +0530	capturescreen	DesktopsPage_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-30 16:07:08.155 +0530	imagefound	(TEXT:"Build your own computer")	found at (783, 917)	14	on_scrollto	CommonUtilities/Core.script
+2024-01-30 16:07:10.253 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 917)	3	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:10.349 +0530	set		SEARCHRECTANGLE = [[683,867],[983,1117]]	4	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:13.562 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	5	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:13.575 +0530	set		SEARCHRECTANGLE = 	8	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:15.609 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 917)	9	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:15.705 +0530	set		SEARCHRECTANGLE = [[683,867],[983,1117]]	10	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:18.933 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	11	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:18.944 +0530	scrollwheeldown		moved 3	12	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:18.949 +0530	set		SEARCHRECTANGLE = 	13	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:21.863 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 717)	14	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:21.959 +0530	set		SEARCHRECTANGLE = [[683,667],[983,917]]	15	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:22.210 +0530	imagefound	(TEXT:"ADD TO CART")	found at (768, 856)	17	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:22.445 +0530	imagefound	(TEXT:"ADD TO CART")	found at (768, 856)	18	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:22.567 +0530	click		at (768, 856)	18	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:22.572 +0530	set		SEARCHRECTANGLE = 	20	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 16:07:29.266 +0530	click	(TEXT:"RAM")	at (940, 829)	5	on_clickeventoffset	CommonUtilities/Core.script
+2024-01-30 16:07:34.172 +0530	waitfor	(TEXT:"2 GB")	found at (956, 882)	6	on_waitforvalidation	CommonUtilities/Core.script
+2024-01-30 16:07:36.082 +0530	click	(TEXT:"2 GB")	at (956, 882)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-30 16:07:37.754 +0530	imagefound	(TEXT:"HDD")	found at (944, 874)	14	on_scrollto	CommonUtilities/Core.script
+2024-01-30 16:07:39.570 +0530	click	(TEXT:"320 GB")	at (974, 905)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-30 16:08:35.803 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	14	on_scrollto	CommonUtilities/Core.script
+2024-01-30 16:08:35.866 +0530	scrollwheeldown		moved 5	15	on_scrollto	CommonUtilities/Core.script
+2024-01-30 16:08:38.584 +0530	imagefound	(TEXT:"ADD TO CART")	found at (1046, 838)	21	on_scrollto	CommonUtilities/Core.script
+2024-01-30 16:08:40.470 +0530	click	(TEXT:"ADD TO CART")	at (966, 833)	2	on_textentryoffset	CommonUtilities/Core.script
+2024-01-30 16:08:41.229 +0530	typetext		[controlKey]a	4	on_textentryoffset	CommonUtilities/Core.script
+2024-01-30 16:08:41.976 +0530	typetext		2	6	on_textentryoffset	CommonUtilities/Core.script
+2024-01-30 16:08:42.416 +0530	capturescreen	FilledOptions_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-30 16:08:44.440 +0530	click	(TEXT:"ADD TO CART")	at (1046, 838)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-30 16:08:55.945 +0530	imagefound	(TEXT:"The product has been added to your")	found at (122, 110)	5	on_verifyevent	CommonUtilities/Core.script
+2024-01-30 16:08:55.948 +0530	Log		Product is added to Cart	5	on_verifyevent	CommonUtilities/Core.script
+2024-01-30 16:08:56.267 +0530	capturescreen	Message_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-30 16:08:56.382 +0530	typetext		[homeKey]	2	on_scrolltobeginingofpage	CommonUtilities/BrowserUtilities.script
+2024-01-30 16:08:58.427 +0530	click	(TEXT:"Shopping cart")	at (1478, 108)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-30 16:09:49.748 +0530	Exception	(TEXT:"Product(s)")	Unable To Find Any Image On Screen "(TEXT:"Product(s)")" within 50.00 seconds. Text not found.	6	on_waitforvalidation	CommonUtilities/Core.script
+2024-01-30 16:09:49.825 +0530	EndTestCase		(Duration:"183.476", Errors:"1", Exceptions:"1", StartTime:"2024-01-30 16:06:46 +0530", Successes:"0", TestCase:"TestCases/TC01_ReadPriceOfDesktop.script", Warnings:"0")
+2024-01-30 16:09:50.024 +0530	FAILURE	Screen_Error.png	Image Not Found: waitfor Error - Unable To Find Any Image On Screen "(TEXT:"Product(s)")" within 50.00 seconds. Text not found. -- Execution Time 0:03:03 TestCases/TC01_ReadPriceOfDesktop.script

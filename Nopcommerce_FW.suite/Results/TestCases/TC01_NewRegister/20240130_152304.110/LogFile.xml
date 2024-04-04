@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="TestCases/TC01_ReadPriceOfDesktop_script" package="Nopcommerce_FW.suite" timestamp="2024-01-30 15:23:04.110 +0530"
+ tests="1"  failures="0" errors="0" time="117.483000">
+  <properties>
+   <property name="RunDate" value="2024-01-30 15:23:04.110 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="TestCases/TC01_ReadPriceOfDesktop.script" assertions="1" status="error"  time="117.458">
+    <error type="Exception" message="Searching For Image: OCR Error: Operation was aborted" />
+  </testcase>
+ </testsuite>
+</testsuites>

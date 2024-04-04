@@ -1,0 +1,4 @@
+﻿2024-01-17 20:47:24.037 +0530	START		Running TestCases/TC01_ReadPriceOfDesktop.script
+2024-01-17 20:47:24.411 +0530	EndTestCase		(Duration:"0.367", Errors:"1", Exceptions:"0", StartTime:"2024-01-17 20:47:24 +0530", Successes:"0", TestCase:"TestCases/TC01_ReadPriceOfDesktop.script", Warnings:"0")
+2024-01-17 20:47:24.811 +0530	Error Screen	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240117_204724.028/Screen_Error.png	CapturedErrorScreenshot	0949F639-2B57-C909-4052-26160F2C92D3
+2024-01-17 20:47:24.825 +0530	FAILURE	Screen_Error.png	STDatabaseError: Where clause specifies invalid column name 'Falg' (no such column) -- Execution Time 0:00:00 TestCases/TC01_ReadPriceOfDesktop.script

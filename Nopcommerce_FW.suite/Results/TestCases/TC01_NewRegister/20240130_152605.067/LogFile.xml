@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="TestCases/TC01_ReadPriceOfDesktop_script" package="Nopcommerce_FW.suite" timestamp="2024-01-30 15:26:05.067 +0530"
+ tests="1"  failures="1" errors="1" time="221.502000">
+  <properties>
+   <property name="RunDate" value="2024-01-30 15:26:05.067 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="TestCases/TC01_ReadPriceOfDesktop.script" assertions="1" status="error"  time="221.488">
+    <failure type="FAILURE" message="Image Not Found: click Error - No Text Found On Screen: &quot;(TEXT:&quot;RAM&quot;)&quot;. Text not found. -- Execution Time 0:03:41 TestCases/TC01_ReadPriceOfDesktop.script" />
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&quot;RAM&quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1706684174.984,
+	"ocrcapturestring": "rrw Work - Edge",
+	"originalcapturelocation": [
+		78,
+		87,
+		73,
+		58
+	],
+	"createddate": 1706684174.984,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "rrw Work - Edge",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[36,29]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					78,
+					87,
+					73,
+					58
+				],
+				"name": "WorkFHa.png"
+			}
+	],
+	"name": "WorkFHa"
+}

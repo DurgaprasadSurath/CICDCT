@@ -1,0 +1,20 @@
+﻿Run "CommonUtilities/VariableData"
+
+"ApplicationUtilities/InitialSetup".launchNopcommerceApplication
+"ApplicationUtilities/HomePage".navigateToRegister
+
+"ApplicationUtilities/RegisterPage".selectGender
+"ApplicationUtilities/RegisterPage".fillFirstnameField
+"ApplicationUtilities/RegisterPage".fillLastnameField
+"ApplicationUtilities/RegisterPage".selectDOB
+"ApplicationUtilities/RegisterPage".fillEmailField
+"ApplicationUtilities/RegisterPage".fillCompanynameField
+"ApplicationUtilities/RegisterPage".checkNewsletter
+"ApplicationUtilities/RegisterPage".fillPasswordField
+"ApplicationUtilities/RegisterPage".fillConfirmPasswordField
+"ApplicationUtilities/RegisterPage".hitRegisterButton
+"ApplicationUtilities/RegisterPage".hitContinueButton
+
+"CommonUtilities/BrowserSC".terminateAllWindows
+
+

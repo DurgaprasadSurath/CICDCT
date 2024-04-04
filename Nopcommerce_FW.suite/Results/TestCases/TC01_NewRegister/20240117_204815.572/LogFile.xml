@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="TestCases/TC01_ReadPriceOfDesktop_script" package="Nopcommerce_FW.suite" timestamp="2024-01-17 20:48:15.572 +0530"
+ tests="1"  failures="1" errors="1" time="4.611000">
+  <properties>
+   <property name="RunDate" value="2024-01-17 20:48:15.572 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="TestCases/TC01_ReadPriceOfDesktop.script" assertions="1" status="error"  time="4.595">
+    <failure type="FAILURE" message="No Remote Connection: imagefound Error - Retrieving Frame Buffer:No Connection to Server\nKalyan_SUT63\n -- Execution Time 0:00:04 TestCases/TC01_ReadPriceOfDesktop.script" />
+    <error type="Exception" message="Retrieving Frame Buffer:No Connection to Server\nKalyan_SUT63\n" />
+  </testcase>
+ </testsuite>
+</testsuites>

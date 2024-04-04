@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1706684178.6259999,
+	"ocrcapturestring": "runSeleniu...",
+	"originalcapturelocation": [
+		79,
+		461,
+		72,
+		17
+	],
+	"createddate": 1706684178.6259999,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "runSeleniu...",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[36,8]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					79,
+					461,
+					72,
+					17
+				],
+				"name": "runSeleniu.png"
+			}
+	],
+	"name": "runSeleniu"
+}

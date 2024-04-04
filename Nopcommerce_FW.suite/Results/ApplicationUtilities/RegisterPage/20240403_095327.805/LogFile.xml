@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="ApplicationUtilities/RegisterPage_script" package="Nopcommerce_FW.suite" timestamp="2024-04-03 09:53:27.805 +0530"
+ tests="1"  failures="0" errors="0" time="0.016000">
+  <properties>
+   <property name="RunDate" value="2024-04-03 09:53:27.805 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="ApplicationUtilities/RegisterPage.script" assertions="1" status="success"  time="0.001">
+  </testcase>
+ </testsuite>
+</testsuites>

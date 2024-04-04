@@ -1,0 +1,11 @@
+﻿2024-02-13 11:13:47.772 +0530	START		Running TestCases/TC01_ReadPriceOfDesktop.script
+2024-02-13 11:13:49.768 +0530	Connect		192.168.1.81:3389	1	on_tc01_readpriceofdesktop	TestCases/TC01_ReadPriceOfDesktop.script
+2024-02-13 11:13:50.183 +0530	typetext		[windowsKey]r	3	on_launchurl	CommonUtilities/Core.script
+2024-02-13 11:13:53.106 +0530	typetext		Chrome --incognito https://demo.nopcommerce.com/[returnKey]	5	on_launchurl	CommonUtilities/Core.script
+2024-02-13 11:13:53.860 +0530	typetext		[windowsKey][upArrow]	6	on_launchurl	CommonUtilities/Core.script
+2024-02-13 11:14:44.054 +0530	imagefound	logos/Nopcommerce	Unable to Find Image logos/Nopcommerce	3	on_verifyevent	CommonUtilities/Core.script
+2024-02-13 11:14:44.058 +0530	LogWarning		Failed to Launch Application.	3	on_verifyevent	CommonUtilities/Core.script
+2024-02-13 11:14:44.265 +0530	capturescreen	HomePage_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-02-13 11:15:38.219 +0530	Exception	(TEXT:"Computers")	No Text Found On Screen: "(TEXT:"Computers")". Text not found.	5	on_movetoevent	CommonUtilities/Core.script
+2024-02-13 11:15:38.289 +0530	EndTestCase		(Duration:"110.507", Errors:"1", Exceptions:"1", StartTime:"2024-02-13 11:13:47 +0530", Successes:"0", TestCase:"TestCases/TC01_ReadPriceOfDesktop.script", Warnings:"1")
+2024-02-13 11:15:38.482 +0530	FAILURE	Screen_Error.png	Image Not Found: moveto Error - No Text Found On Screen: "(TEXT:"Computers")". Text not found. -- Execution Time 0:01:50 TestCases/TC01_ReadPriceOfDesktop.script

@@ -1,0 +1,27 @@
+{
+	"entries": [
+		{
+				"message": "Running TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "START",
+				"timestamp": "2024-01-17 22:38:12.898 +0530"
+			},
+		{
+				"message": "(Duration:\"0.2\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-01-17 22:38:12 +0530\", Successes:\"0\", TestCase:\"TestCases/TC01_ReadPriceOfDesktop.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-01-17 22:38:13.109 +0530"
+			},
+		{
+				"image": "C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240117_223812.849/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-01-17 22:38:13.332 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Workbook Error: Error loading workbook C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Resources/UserData.xlsx: Permission denied. -- Execution Time 0:00:00 TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-01-17 22:38:13.343 +0530"
+			}
+	],
+	"createdTimestamp": "2024-01-17 22:38:12.906 +0530"
+}

@@ -1,0 +1,4 @@
+﻿2024-04-03 11:11:49.600 +0530	START		Running TestCases/TC01_NewRegister.script
+2024-04-03 11:11:58.831 +0530	Log		Application Launched.	3	on_verifyevent	CommonUtilities/Core.script
+2024-04-03 11:13:13.714 +0530	EndTestCase		(Duration:"84.109", Errors:"0", Exceptions:"0", StartTime:"2024-04-03 11:11:49 +0530", Successes:"1", TestCase:"TestCases/TC01_NewRegister.script", Warnings:"0")
+2024-04-03 11:13:13.769 +0530	SUCCESS		Execution Time 0:01:24 TestCases/TC01_NewRegister.script

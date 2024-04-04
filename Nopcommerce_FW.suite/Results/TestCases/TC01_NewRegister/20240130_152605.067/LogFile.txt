@@ -1,0 +1,23 @@
+﻿2024-01-30 15:26:05.076 +0530	START		Running TestCases/TC01_ReadPriceOfDesktop.script
+2024-01-30 15:26:05.342 +0530	typetext		[windowsKey]r	3	on_launchurl	CommonUtilities/Core.script
+2024-01-30 15:26:07.911 +0530	typetext		Chrome --incognito https://demo.nopcommerce.com/[returnKey]	5	on_launchurl	CommonUtilities/Core.script
+2024-01-30 15:26:09.172 +0530	typetext		[windowsKey][upArrow]	6	on_launchurl	CommonUtilities/Core.script
+2024-01-30 15:26:12.145 +0530	imagefound	logos/Nopcommerce	found at (382, 193)	3	on_verifyevent	CommonUtilities/Core.script
+2024-01-30 15:26:12.152 +0530	Log		Application Launched.	3	on_verifyevent	CommonUtilities/Core.script
+2024-01-30 15:26:12.783 +0530	capturescreen	HomePage_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-30 15:26:16.582 +0530	moveto	(TEXT:"Computers")	at (526, 294)	5	on_movetoevent	CommonUtilities/Core.script
+2024-01-30 15:26:58.924 +0530	click	(TEXT:"Desktops")	at (531, 338)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-30 15:27:15.903 +0530	imagefound	(TEXT:"Desktops")	found at (531, 337)	5	on_verifyevent	CommonUtilities/Core.script
+2024-01-30 15:27:15.907 +0530	Log		Desktops page is loaded successful.	5	on_verifyevent	CommonUtilities/Core.script
+2024-01-30 15:27:16.264 +0530	capturescreen	DesktopsPage_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-30 15:28:17.772 +0530	imagefound	(TEXT:"Build your own computer")	Unable to Find Image (TEXT:"Build your own computer"). Text not found.	14	on_scrollto	CommonUtilities/Core.script
+2024-01-30 15:28:18.973 +0530	scrollwheeldown		moved 5	15	on_scrollto	CommonUtilities/Core.script
+2024-01-30 15:28:35.157 +0530	imagefound	(TEXT:"Build your own computer")	found at (783, 917)	21	on_scrollto	CommonUtilities/Core.script
+2024-01-30 15:28:39.840 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 872)	3	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 15:28:40.124 +0530	set		SEARCHRECTANGLE = [[683,822],[983,1072]]	4	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 15:28:40.690 +0530	imagefound	(TEXT:"ADD TO CART")	found at (768, 984)	5	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 15:28:41.341 +0530	click		at (768, 984)	6	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 15:28:41.352 +0530	set		SEARCHRECTANGLE = 	20	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-30 15:29:46.335 +0530	Exception	(TEXT:"RAM")	No Text Found On Screen: "(TEXT:"RAM")". Text not found.	5	on_clickeventoffset	CommonUtilities/Core.script
+2024-01-30 15:29:46.572 +0530	EndTestCase		(Duration:"221.488", Errors:"1", Exceptions:"1", StartTime:"2024-01-30 15:26:05 +0530", Successes:"0", TestCase:"TestCases/TC01_ReadPriceOfDesktop.script", Warnings:"0")
+2024-01-30 15:29:47.018 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:"RAM")". Text not found. -- Execution Time 0:03:41 TestCases/TC01_ReadPriceOfDesktop.script

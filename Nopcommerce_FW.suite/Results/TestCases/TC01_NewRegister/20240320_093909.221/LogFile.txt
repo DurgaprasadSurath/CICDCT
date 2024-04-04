@@ -1,0 +1,7 @@
+﻿2024-03-20 09:39:09.231 +0530	START		Running TestCases/TC01_ReadPriceOfDesktop.script
+2024-03-20 09:39:09.720 +0530	typetext		[windowsKey]r	2	on_openrunwindow	CommonUtilities/Core.script
+2024-03-20 09:39:19.051 +0530	waitfor	(TEXT:"Type the")	found at (100, 893)	4	on_openrunwindow	CommonUtilities/Core.script
+2024-03-20 09:39:20.707 +0530	typetext		Chrome --incognito https://demo.nopcommerce.com/[returnKey]	4	on_launchurl	CommonUtilities/Core.script
+2024-03-20 09:39:21.474 +0530	typetext		[windowsKey][upArrow]	5	on_launchurl	CommonUtilities/Core.script
+2024-03-20 09:39:30.539 +0530	EndTestCase		(Duration:"21.304", Errors:"1", Exceptions:"0", StartTime:"2024-03-20 09:39:09 +0530", Successes:"0", TestCase:"TestCases/TC01_ReadPriceOfDesktop.script", Warnings:"0")
+2024-03-20 09:39:30.569 +0530	ABORTED		Execution Time 0:00:21 TestCases/TC01_ReadPriceOfDesktop.script

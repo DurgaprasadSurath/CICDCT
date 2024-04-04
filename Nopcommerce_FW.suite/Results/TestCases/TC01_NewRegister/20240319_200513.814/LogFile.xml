@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="TestCases/TC01_ReadPriceOfDesktop_script" package="Nopcommerce_FW.suite" timestamp="2024-03-19 20:05:13.814 +0530"
+ tests="1"  failures="1" errors="1" time="131.244000">
+  <properties>
+   <property name="RunDate" value="2024-03-19 20:05:13.814 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="TestCases/TC01_ReadPriceOfDesktop.script" assertions="1" status="error"  time="131.223">
+    <failure type="FAILURE" message="Image Not Found: moveto Error - No Text Found On Screen: &quot;(TEXT:&quot;Computers&quot;)&quot;. Text not found. -- Execution Time 0:02:11 TestCases/TC01_ReadPriceOfDesktop.script" />
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&quot;Computers&quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

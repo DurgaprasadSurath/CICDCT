@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="TestCases/TC01_NewRegister_script" package="Nopcommerce_FW.suite" timestamp="2024-04-03 10:54:18.265 +0530"
+ tests="1"  failures="0" errors="0" time="81.636000">
+  <properties>
+   <property name="RunDate" value="2024-04-03 10:54:18.265 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="TestCases/TC01_NewRegister.script" assertions="1" status="error"  time="81.616">
+  </testcase>
+ </testsuite>
+</testsuites>

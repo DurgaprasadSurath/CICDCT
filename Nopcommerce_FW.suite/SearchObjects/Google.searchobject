@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1706684176.6100001,
+	"ocrcapturestring": "Google Chrome",
+	"originalcapturelocation": [
+		13,
+		293,
+		51,
+		32
+	],
+	"createddate": 1706684176.6100001,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Google Chrome",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[25,16]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					13,
+					293,
+					51,
+					32
+				],
+				"name": "Google.png"
+			}
+	],
+	"name": "Google"
+}

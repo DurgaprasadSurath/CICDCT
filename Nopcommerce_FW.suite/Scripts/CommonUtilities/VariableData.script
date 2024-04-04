@@ -1,0 +1,29 @@
+﻿//Environment Wait
+set universal pagewait to 50
+set the ScriptLogging to Off
+//Common Data
+"CommonUtilities/ExternalFileInteractions".ReadSingleRecord "UserData.xlsx", "Common_Data", "Yet"
+set Global Browser to  Global CurrentRecord.Browser
+set Global Url to Global CurrentRecord.Url
+set Global Username to Global CurrentRecord.Username
+set Global Password to Global CurrentRecord.Password
+
+
+//Product Specific Data
+"CommonUtilities/ExternalFileInteractions".ReadSingleRecord "UserData.xlsx", "Product_Specific", "Yet"
+set Global ProductName to  Global CurrentRecord.ProductName
+set Global Ram to Global CurrentRecord.Ram
+set Global Hdd to Global CurrentRecord.Hdd
+set Global NoOfProducts to Global CurrentRecord.NoOfProducts
+
+
+set Global Gender to "Male"
+set Global Firstname to "John"
+set Global Lastname to "Miller"
+set Global Day to 20
+set Global Month to "Jan"
+set Global Year to 2000
+set Global Email to "Johnmiller@email.com"
+set Global Companyname to "Eggplant"
+set Global Password to "John@123"
+set Global Confirmpassword to "John@123"

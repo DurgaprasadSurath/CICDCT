@@ -1,0 +1,37 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2024-01-16 21:16:23.045 +0530,"Success",0:00:04,0,1,0,"20240116_211623.045/LogFile.txt","","",1
+2024-01-16 22:02:59.677 +0530,"Aborted",0:04:47,1,0,0,"20240116_220259.677/LogFile.txt","","",0
+2024-01-16 22:10:05.316 +0530,"Aborted",0:04:42,1,0,0,"20240116_221005.316/LogFile.txt","","",0
+2024-01-16 22:15:17.238 +0530,"Success",0:07:08,0,1,0,"20240116_221517.238/LogFile.txt","","",1
+2024-01-16 22:25:33.284 +0530,"Success",0:03:10,0,1,0,"20240116_222533.284/LogFile.txt","","",1
+2024-01-17 20:47:10.286 +0530,"Failure",0:00:00,1,0,0,"20240117_204710.286/LogFile.txt","","Workbook Error -- Error loading workbook C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Resources/UserData.xlsx: Permission denied.",0
+2024-01-17 20:47:24.028 +0530,"Failure",0:00:00,1,0,0,"20240117_204724.028/LogFile.txt","","STDatabaseError -- Where clause specifies invalid column name 'Falg' (no such column)",0
+2024-01-17 20:47:47.229 +0530,"Failure",0:00:00,1,0,0,"20240117_204747.229/LogFile.txt","","STDatabaseError -- Where clause specifies invalid column name 'Flag' (no such column)",0
+2024-01-17 20:48:15.572 +0530,"Failure",0:00:04,1,0,1,"20240117_204815.572/LogFile.txt","","No Remote Connection -- imagefound Error - Retrieving Frame Buffer:No Connection to Server\nKalyan_SUT63\n",0
+2024-01-17 20:51:16.767 +0530,"Success",0:04:07,0,1,0,"20240117_205116.767/LogFile.txt","","",1
+2024-01-17 21:20:35.574 +0530,"Success",0:03:50,0,1,0,"20240117_212035.574/LogFile.txt","","",1
+2024-01-17 22:31:23.940 +0530,"Success",0:03:43,0,1,0,"20240117_223123.940/LogFile.txt","","",1
+2024-01-17 22:38:12.849 +0530,"Failure",0:00:00,1,0,0,"20240117_223812.849/LogFile.txt","","Workbook Error -- Error loading workbook C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Resources/UserData.xlsx: Permission denied.",0
+2024-01-17 22:38:23.299 +0530,"Success",0:02:48,0,0,0,"20240117_223823.299/LogFile.txt","","",1
+2024-01-18 12:49:20.610 +0530,"Aborted",0:00:05,1,0,0,"20240118_124920.610/LogFile.txt","","",0
+2024-01-30 15:23:04.110 +0530,"Aborted",0:01:57,1,1,1,"20240130_152304.110/LogFile.txt","","",0
+2024-01-30 15:26:05.067 +0530,"Failure",0:03:41,1,0,1,"20240130_152605.067/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""RAM"")"". Text not found.",0
+2024-01-30 16:06:46.322 +0530,"Failure",0:03:03,1,0,1,"20240130_160646.322/LogFile.txt","","Image Not Found -- waitfor Error - Unable To Find Any Image On Screen ""(TEXT:""Product(s)"")"" within 50.00 seconds. Text not found.",0
+2024-01-30 17:33:58.614 +0530,"Success",0:02:24,0,0,0,"20240130_173358.614/LogFile.txt","","",1
+2024-02-13 10:28:20.682 +0530,"Failure",0:00:00,1,0,1,"20240213_102820.682/LogFile.txt","","No Remote Connection -- typetext Error - Remote Connection Unavailable",0
+2024-02-13 11:13:47.760 +0530,"Failure",0:01:50,1,1,1,"20240213_111347.760/LogFile.txt","","Image Not Found -- moveto Error - No Text Found On Screen: ""(TEXT:""Computers"")"". Text not found.",0
+2024-02-14 14:48:29.354 +0530,"Aborted",0:01:13,1,0,1,"20240214_144829.354/LogFile.txt","","",0
+2024-02-14 14:50:31.197 +0530,"Failure",0:03:09,1,0,0,"20240214_145031.197/LogFile.txt","","No Connection -- No Connection to Server\nKalyan_SUT63\n",0
+2024-02-14 14:53:41.440 +0530,"Failure",0:00:00,1,0,1,"20240214_145341.440/LogFile.txt","","No Remote Connection -- typetext Error - Remote Connection Unavailable",0
+2024-02-14 14:53:41.983 +0530,"Failure",0:00:00,1,0,1,"20240214_145341.983/LogFile.txt","","No Remote Connection -- typetext Error - Remote Connection Unavailable",0
+2024-02-14 14:53:42.549 +0530,"Failure",0:00:00,1,0,1,"20240214_145342.549/LogFile.txt","","No Remote Connection -- typetext Error - Remote Connection Unavailable",0
+2024-02-14 14:53:43.194 +0530,"Failure",0:00:00,1,0,1,"20240214_145343.194/LogFile.txt","","No Remote Connection -- typetext Error - Remote Connection Unavailable",0
+2024-02-14 14:53:43.758 +0530,"Failure",0:00:00,1,0,1,"20240214_145343.758/LogFile.txt","","No Remote Connection -- typetext Error - Remote Connection Unavailable",0
+2024-03-19 20:05:13.814 +0530,"Failure",0:02:11,1,1,1,"20240319_200513.814/LogFile.txt","","Image Not Found -- moveto Error - No Text Found On Screen: ""(TEXT:""Computers"")"". Text not found.",0
+2024-03-20 09:39:09.221 +0530,"Aborted",0:00:21,1,0,0,"20240320_093909.221/LogFile.txt","","",0
+2024-03-20 09:39:39.418 +0530,"Failure",0:00:50,1,0,0,"20240320_093939.418/LogFile.txt","","STUnknownMessage -- ERROR: No Such Command: 'clickeventoffset'",0
+2024-03-20 09:42:03.682 +0530,"Failure",0:03:22,1,1,0,"20240320_094203.682/LogFile.txt","","Workbook Error -- Worksheet Data doesn't exist",0
+2024-03-20 09:54:00.628 +0530,"Success",0:03:50,0,1,0,"20240320_095400.628/LogFile.txt","","",1
+2024-04-03 10:51:02.752 +0530,"Failure",0:02:35,1,0,1,"20240403_105102.752/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""CONTINUE"")"". Text not found.",0
+2024-04-03 10:54:18.265 +0530,"Aborted",0:01:21,1,0,1,"20240403_105418.265/LogFile.txt","","",0
+2024-04-03 11:11:49.582 +0530,"Success",0:01:24,0,0,0,"20240403_111149.582/LogFile.txt","","",1

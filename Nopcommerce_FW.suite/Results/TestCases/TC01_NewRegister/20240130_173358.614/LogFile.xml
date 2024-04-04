@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="TestCases/TC01_ReadPriceOfDesktop_script" package="Nopcommerce_FW.suite" timestamp="2024-01-30 17:33:58.614 +0530"
+ tests="1"  failures="0" errors="0" time="144.123000">
+  <properties>
+   <property name="RunDate" value="2024-01-30 17:33:58.614 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="TestCases/TC01_ReadPriceOfDesktop.script" assertions="1" status="success"  time="144.111">
+  </testcase>
+ </testsuite>
+</testsuites>

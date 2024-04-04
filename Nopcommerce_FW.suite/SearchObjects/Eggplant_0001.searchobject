@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1706684178.98,
+	"ocrcapturestring": "3>; Eggplant Performan...",
+	"originalcapturelocation": [
+		3,
+		507,
+		72,
+		70
+	],
+	"createddate": 1706684178.98,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "3>; Eggplant Performan...",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[36,35]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					3,
+					507,
+					72,
+					70
+				],
+				"name": "Eggplant_0001.png"
+			}
+	],
+	"name": "Eggplant_0001"
+}

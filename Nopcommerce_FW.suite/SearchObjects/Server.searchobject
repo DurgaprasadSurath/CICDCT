@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1706684174.1890001,
+	"ocrcapturestring": "Server lnfo.txt",
+	"originalcapturelocation": [
+		93,
+		41,
+		45,
+		32
+	],
+	"createddate": 1706684174.1890001,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Server lnfo.txt",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[22,16]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					93,
+					41,
+					45,
+					32
+				],
+				"name": "Server.png"
+			}
+	],
+	"name": "Server"
+}

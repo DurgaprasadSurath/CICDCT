@@ -1,0 +1,67 @@
+﻿2024-01-17 22:38:23.308 +0530	START		Running TestCases/TC01_ReadPriceOfDesktop.script
+2024-01-17 22:38:23.667 +0530	typetext		[windowsKey]r	3	on_launchurl	CommonUtilities/Core.script
+2024-01-17 22:38:26.235 +0530	typetext		Chrome --incognito https://demo.nopcommerce.com/[returnKey]	5	on_launchurl	CommonUtilities/Core.script
+2024-01-17 22:38:27.492 +0530	typetext		[windowsKey][upArrow]	6	on_launchurl	CommonUtilities/Core.script
+2024-01-17 22:38:30.772 +0530	imagefound	logos/Nopcommerce	found at (382, 193)	3	on_verifyevent	CommonUtilities/Core.script
+2024-01-17 22:38:30.775 +0530	Log		Application Launched.	3	on_verifyevent	CommonUtilities/Core.script
+2024-01-17 22:38:31.128 +0530	capturescreen	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240117_223823.299/HomePage_0001.png	UserCapturedScreenshot	C79E631C-28D2-1707-4E37-6CACC4E4758C	2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-17 22:38:32.940 +0530	moveto	(TEXT:"Computers")	at (526, 294)	5	on_movetoevent	CommonUtilities/Core.script
+2024-01-17 22:38:35.958 +0530	click	(TEXT:"Desktops")	at (531, 337)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-17 22:38:39.169 +0530	imagefound	(TEXT:"Desktops")	found at (531, 338)	5	on_verifyevent	CommonUtilities/Core.script
+2024-01-17 22:38:39.174 +0530	Log		Desktops page is loaded successful.	5	on_verifyevent	CommonUtilities/Core.script
+2024-01-17 22:38:39.559 +0530	capturescreen	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240117_223823.299/DesktopsPage_0001.png	UserCapturedScreenshot	19FCEB78-7EAE-B202-40CC-74D4DC43FD08	2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-17 22:38:59.314 +0530	imagefound	(TEXT:"Build your own computer")	found at (783, 917)	14	on_scrollto	CommonUtilities/Core.script
+2024-01-17 22:39:01.193 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 917)	3	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:01.296 +0530	set		SEARCHRECTANGLE = [[683,867],[983,1117]]	4	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:04.865 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	5	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:04.885 +0530	set		SEARCHRECTANGLE = 	8	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:07.754 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 917)	9	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:07.917 +0530	set		SEARCHRECTANGLE = [[683,867],[983,1117]]	10	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:11.662 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	11	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:11.691 +0530	scrollwheeldown		moved 3	12	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:11.699 +0530	set		SEARCHRECTANGLE = 	13	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:15.488 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 617)	14	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:15.641 +0530	set		SEARCHRECTANGLE = [[683,567],[983,817]]	15	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:15.862 +0530	imagefound	(TEXT:"ADD TO CART")	found at (768, 756)	17	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:16.170 +0530	imagefound	(TEXT:"ADD TO CART")	found at (768, 756)	18	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:16.310 +0530	click		at (768, 756)	18	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:16.318 +0530	set		SEARCHRECTANGLE = 	20	on_addproducttocart	CommonUtilities/Custom.script
+2024-01-17 22:39:24.472 +0530	click	(TEXT:"RAM")	at (940, 829)	5	on_clickeventoffset	CommonUtilities/Core.script
+2024-01-17 22:39:26.915 +0530	waitfor	(TEXT:"2 GB")	found at (956, 882)	6	on_waitforvalidation	CommonUtilities/Core.script
+2024-01-17 22:39:29.477 +0530	click	(TEXT:"2 GB")	at (956, 882)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-17 22:39:31.435 +0530	imagefound	(TEXT:"HDD")	found at (944, 874)	14	on_scrollto	CommonUtilities/Core.script
+2024-01-17 22:39:33.431 +0530	click	(TEXT:"320 GB")	at (974, 905)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-17 22:40:31.456 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	14	on_scrollto	CommonUtilities/Core.script
+2024-01-17 22:40:31.613 +0530	scrollwheeldown		moved 5	15	on_scrollto	CommonUtilities/Core.script
+2024-01-17 22:40:35.413 +0530	imagefound	(TEXT:"ADD TO CART")	found at (1046, 838)	21	on_scrollto	CommonUtilities/Core.script
+2024-01-17 22:40:37.742 +0530	click	(TEXT:"ADD TO CART")	at (966, 833)	2	on_textentryoffset	CommonUtilities/Core.script
+2024-01-17 22:40:38.500 +0530	typetext		[controlKey]a	4	on_textentryoffset	CommonUtilities/Core.script
+2024-01-17 22:40:39.237 +0530	typetext		2	6	on_textentryoffset	CommonUtilities/Core.script
+2024-01-17 22:40:39.795 +0530	capturescreen	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240117_223823.299/FilledOptions_0001.png	UserCapturedScreenshot	FE674B90-FBD8-C909-4499-407816F81101	2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-17 22:40:43.554 +0530	click	(TEXT:"ADD TO CART")	at (1046, 838)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-17 22:40:52.502 +0530	imagefound	(TEXT:"The product has been added to your")	found at (122, 110)	5	on_verifyevent	CommonUtilities/Core.script
+2024-01-17 22:40:52.507 +0530	Log		Product is added to Cart	5	on_verifyevent	CommonUtilities/Core.script
+2024-01-17 22:40:52.829 +0530	capturescreen	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240117_223823.299/Message_0001.png	UserCapturedScreenshot	34D29F96-9923-2303-744A-5515B2C9B326	2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-17 22:40:52.973 +0530	typetext		[homeKey]	2	on_scrolltobeginingofpage	CommonUtilities/BrowserUtilities.script
+2024-01-17 22:40:55.524 +0530	click	(TEXT:"Shopping cart")	at (1478, 108)	5	on_clickevent	CommonUtilities/Core.script
+2024-01-17 22:41:03.023 +0530	waitfor	(TEXT:"Product(s)")	found at (644, 438)	6	on_waitforvalidation	CommonUtilities/Core.script
+2024-01-17 22:41:03.352 +0530	capturescreen	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240117_223823.299/CartPage_0001.png	UserCapturedScreenshot	740DDE09-300F-3101-6324-581BBD673F67	2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-17 22:41:05.587 +0530	imagelocation	(TEXT:"Price")	at (1206, 437)	2	on_readpriceandtotal	CommonUtilities/Custom.script
+2024-01-17 22:41:05.592 +0530	set		SEARCHRECTANGLE = [[1176,467],[1276,637]]	3	on_readpriceandtotal	CommonUtilities/Custom.script
+2024-01-17 22:41:05.712 +0530	readtext		(1176,467,1276,637)	4	on_readpriceandtotal	CommonUtilities/Custom.script
+2024-01-17 22:41:05.718 +0530	set		SEARCHRECTANGLE = 	5	on_readpriceandtotal	CommonUtilities/Custom.script
+2024-01-17 22:41:08.072 +0530	imagelocation	(TEXT:"Total")	at (1398, 437)	6	on_readpriceandtotal	CommonUtilities/Custom.script
+2024-01-17 22:41:08.090 +0530	set		SEARCHRECTANGLE = [[1368,467],[1468,637]]	7	on_readpriceandtotal	CommonUtilities/Custom.script
+2024-01-17 22:41:08.308 +0530	set		TEXTSTYLE = {dpi:144}	10	function_settextstyle	CommonUtilities/Core.script
+2024-01-17 22:41:08.366 +0530	readtext		(1368,467,1468,637)	8	on_readpriceandtotal	CommonUtilities/Custom.script
+2024-01-17 22:41:08.580 +0530	set		TEXTSTYLE = 	10	on_settextstyle	CommonUtilities/Core.script
+2024-01-17 22:41:08.776 +0530	typetext		[homeKey]	2	on_scrolltobeginingofpage	CommonUtilities/BrowserUtilities.script
+2024-01-17 22:41:08.872 +0530	set		TEXTSTYLE = {contrast:"On", contrastColor:[200,200,200], contrastTolerance:"45"}	10	on_settextstyle	CommonUtilities/Core.script
+2024-01-17 22:41:09.794 +0530	imagefound	(TEXT:"Continue shopping")	found at (1246, 695)	14	on_scrollto	CommonUtilities/Core.script
+2024-01-17 22:41:10.024 +0530	click		at (1246, 695)	2	on_clickatlocation	CommonUtilities/Core.script
+2024-01-17 22:41:10.155 +0530	set		TEXTSTYLE = 	10	on_settextstyle	CommonUtilities/Core.script
+2024-01-17 22:41:10.317 +0530	capturescreen	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240117_223823.299/ProductsPage_0001.png	UserCapturedScreenshot	464D87C6-DA44-0303-7886-177FEDA5A048	2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-17 22:41:10.772 +0530	typetext		[windowsAltKey]f	2	on_terminateallwindows	CommonUtilities/BrowserUtilities.script
+2024-01-17 22:41:11.518 +0530	typetext		x	3	on_terminateallwindows	CommonUtilities/BrowserUtilities.script
+2024-01-17 22:41:11.594 +0530	EndTestCase		(Duration:"168.276", Errors:"0", Exceptions:"0", StartTime:"2024-01-17 22:38:23 +0530", Successes:"1", TestCase:"TestCases/TC01_ReadPriceOfDesktop.script", Warnings:"0")
+2024-01-17 22:41:11.694 +0530	SUCCESS		Execution Time 0:02:48 TestCases/TC01_ReadPriceOfDesktop.script

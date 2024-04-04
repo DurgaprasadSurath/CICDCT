@@ -1,0 +1,77 @@
+{
+	"entries": [
+		{
+				"message": "Running TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "START",
+				"timestamp": "2024-01-30 15:23:04.125 +0530"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-30 15:23:06.598 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-30 15:23:18.643 +0530",
+				"message": "Chrome --incognito https://demo.nopcommerce.com/[returnKey]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-01-30 15:23:19.630 +0530",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-30 15:24:10.052 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "Unable to Find Image logos/Nopcommerce",
+				"image": "logos/Nopcommerce",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-01-30 15:24:10.071 +0530",
+				"message": "Failed to Launch Application.",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 3,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_capturescreenshot",
+				"timestamp": "2024-01-30 15:24:10.866 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"image": "HomePage_0001.png",
+				"handlerLine": 2,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_movetoevent",
+				"timestamp": "2024-01-30 15:25:01.126 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 5,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"117.458\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-01-30 15:23:04 +0530\", Successes:\"0\", TestCase:\"TestCases/TC01_ReadPriceOfDesktop.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-01-30 15:25:01.595 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:57 TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-01-30 15:25:01.643 +0530"
+			}
+	],
+	"createdTimestamp": "2024-01-30 15:23:04.133 +0530"
+}

@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1706684183.141,
+	"ocrcapturestring": "12:25 PM",
+	"originalcapturelocation": [
+		1809,
+		1042,
+		55,
+		17
+	],
+	"createddate": 1706684183.141,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "12:25 PM",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_66",
+					"HotSpot": "[27,8]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					1809,
+					1042,
+					55,
+					17
+				],
+				"name": "1225PM.png"
+			}
+	],
+	"name": "1225PM"
+}

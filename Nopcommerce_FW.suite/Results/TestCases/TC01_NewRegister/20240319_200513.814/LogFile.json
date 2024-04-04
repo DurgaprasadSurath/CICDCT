@@ -1,0 +1,88 @@
+{
+	"entries": [
+		{
+				"message": "Running TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "START",
+				"timestamp": "2024-03-19 20:05:13.826 +0530"
+			},
+		{
+				"handlerName": "on_openrunwindow",
+				"timestamp": "2024-03-19 20:05:14.382 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openrunwindow",
+				"timestamp": "2024-03-19 20:05:26.761 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (100, 893)",
+				"image": "(TEXT:\"Type the\")",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-03-19 20:05:28.410 +0530",
+				"message": "Chrome --incognito https://demo.nopcommerce.com/[returnKey]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2024-03-19 20:05:29.177 +0530",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-03-19 20:06:19.410 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "Unable to Find Image logos/Nopcommerce",
+				"image": "logos/Nopcommerce",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_verifyevent",
+				"timestamp": "2024-03-19 20:06:19.417 +0530",
+				"message": "Failed to Launch Application.",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 3,
+				"identifier": "LogWarning"
+			},
+		{
+				"handlerName": "on_capturescreenshot",
+				"timestamp": "2024-03-19 20:06:20.377 +0530",
+				"scriptName": "CommonUtilities/Custom.script",
+				"image": "HomePage_0001.png",
+				"handlerLine": 2,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_movetoevent",
+				"timestamp": "2024-03-19 20:07:24.961 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"Computers\")\". Text not found.",
+				"image": "(TEXT:\"Computers\")",
+				"handlerLine": 6,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"131.223\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-03-19 20:05:13 +0530\", Successes:\"0\", TestCase:\"TestCases/TC01_ReadPriceOfDesktop.script\", Warnings:\"1\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-03-19 20:07:25.060 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: moveto Error - No Text Found On Screen: \"(TEXT:\"Computers\")\". Text not found. -- Execution Time 0:02:11 TestCases/TC01_ReadPriceOfDesktop.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-03-19 20:07:25.953 +0530"
+			}
+	],
+	"createdTimestamp": "2024-03-19 20:05:13.834 +0530"
+}

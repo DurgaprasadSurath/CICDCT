@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1706684181.069,
+	"ocrcapturestring": "eggplantPerf ormance_d85 edBded9bO_2 023010^22331 o.iic Selenium...",
+	"originalcapturelocation": [
+		0,
+		797,
+		78,
+		101
+	],
+	"createddate": 1706684181.069,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "eggplantPerf ormance_d85 edBded9bO_2 023010^22331 o.iic Selenium...",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[39,50]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					0,
+					797,
+					78,
+					101
+				],
+				"name": "023010322331.png"
+			}
+	],
+	"name": "023010322331"
+}

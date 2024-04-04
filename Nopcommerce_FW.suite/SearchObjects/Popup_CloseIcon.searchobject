@@ -1,0 +1,42 @@
+{
+	"lastmodifieddate": 1705416685.8670001,
+	"ocrcapturestring": "X",
+	"originalcapturelocation": [
+		1863,
+		83,
+		34,
+		34
+	],
+	"createddate": 1691994579.402,
+	"testlocationdata": [
+		{
+				"connectionportnum": 5921,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[17,18]",
+					"Tolerance": "_30",
+					"Discrepancy": "_0",
+					"SearchType": "Adaptive to Image"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Popup_CloseIcon.png",
+				"connectionname": "CloudSUT-9",
+				"type": 1,
+				"connectionserverid": "tcsesuts.eggplantlab.com",
+				"capturerect": [
+					1863,
+					83,
+					34,
+					34
+				],
+				"connectiontype": "rdp",
+				"capturedocrtext": "X"
+			}
+	],
+	"name": "Popup_CloseIcon"
+}

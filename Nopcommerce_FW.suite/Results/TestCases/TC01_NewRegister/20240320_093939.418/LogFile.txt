@@ -1,0 +1,31 @@
+﻿2024-03-20 09:39:39.438 +0530	START		Running TestCases/TC01_ReadPriceOfDesktop.script
+2024-03-20 09:39:39.773 +0530	typetext		[windowsKey]r	2	on_openrunwindow	CommonUtilities/Core.script
+2024-03-20 09:39:43.921 +0530	waitfor	(TEXT:"Type the")	found at (100, 893)	4	on_openrunwindow	CommonUtilities/Core.script
+2024-03-20 09:39:45.600 +0530	typetext		Chrome --incognito https://demo.nopcommerce.com/[returnKey]	4	on_launchurl	CommonUtilities/Core.script
+2024-03-20 09:39:46.385 +0530	typetext		[windowsKey][upArrow]	5	on_launchurl	CommonUtilities/Core.script
+2024-03-20 09:39:48.475 +0530	imagefound	logos/Nopcommerce	found at (382, 227)	3	on_verifyevent	CommonUtilities/Core.script
+2024-03-20 09:39:48.481 +0530	Log		Application Launched.	3	on_verifyevent	CommonUtilities/Core.script
+2024-03-20 09:39:48.991 +0530	capturescreen	HomePage_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-03-20 09:39:51.544 +0530	moveto	(TEXT:"Computers")	at (483, 320)	6	on_movetoevent	CommonUtilities/Core.script
+2024-03-20 09:40:05.993 +0530	click	(TEXT:"Desktops")	at (503, 366)	6	on_clickevent	CommonUtilities/Core.script
+2024-03-20 09:40:09.153 +0530	imagefound	(TEXT:"Desktops")	found at (531, 371)	5	on_verifyevent	CommonUtilities/Core.script
+2024-03-20 09:40:09.160 +0530	Log		Desktops page is loaded successful.	5	on_verifyevent	CommonUtilities/Core.script
+2024-03-20 09:40:09.647 +0530	capturescreen	DesktopsPage_0001.png		2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-03-20 09:40:12.032 +0530	imagefound	(TEXT:"Build your own computer")	found at (783, 951)	12	on_scrollto	CommonUtilities/Core.script
+2024-03-20 09:40:14.408 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 951)	3	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:14.513 +0530	set		SEARCHRECTANGLE = [[683,901],[983,1151]]	4	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:18.801 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	5	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:18.814 +0530	set		SEARCHRECTANGLE = 	8	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:21.085 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 951)	9	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:21.191 +0530	set		SEARCHRECTANGLE = [[683,901],[983,1151]]	10	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:25.602 +0530	imagefound	(TEXT:"ADD TO CART")	Unable to Find Image (TEXT:"ADD TO CART"). Text not found.	11	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:25.616 +0530	scrollwheeldown		moved 3	12	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:25.620 +0530	set		SEARCHRECTANGLE = 	13	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:28.870 +0530	imagelocation	(TEXT:"Build your own computer")	at (783, 751)	14	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:28.966 +0530	set		SEARCHRECTANGLE = [[683,701],[983,951]]	15	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:29.229 +0530	imagefound	(TEXT:"ADD TO CART")	found at (768, 890)	17	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:29.500 +0530	imagefound	(TEXT:"ADD TO CART")	found at (768, 890)	18	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:29.622 +0530	click		at (768, 890)	18	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:29.624 +0530	set		SEARCHRECTANGLE = 	20	on_addproducttocart	CommonUtilities/Custom.script
+2024-03-20 09:40:29.822 +0530	EndTestCase		(Duration:"50.378", Errors:"1", Exceptions:"0", StartTime:"2024-03-20 09:39:39 +0530", Successes:"0", TestCase:"TestCases/TC01_ReadPriceOfDesktop.script", Warnings:"0")
+2024-03-20 09:40:30.117 +0530	FAILURE	Screen_Error.png	STUnknownMessage: ERROR: No Such Command: 'clickeventoffset' -- Execution Time 0:00:50 TestCases/TC01_ReadPriceOfDesktop.script

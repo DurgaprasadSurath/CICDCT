@@ -1,0 +1,9 @@
+﻿2024-01-16 21:16:23.054 +0530	START		Running TestCases/TC01_ReadPriceOfDesktop.script
+2024-01-16 21:16:23.284 +0530	typetext		[windowsKey]r	3	on_launchurl	CommonUtilities/Core.script
+2024-01-16 21:16:26.164 +0530	typetext		Chrome --incognito https://demo.nopcommerce.com/[returnKey]	5	on_launchurl	CommonUtilities/Core.script
+2024-01-16 21:16:27.269 +0530	typetext		[windowsKey][upArrow]	6	on_launchurl	CommonUtilities/Core.script
+2024-01-16 21:16:27.348 +0530	imagefound	logos/Nopcommerce	Unable to Find Image logos/Nopcommerce	3	on_verifyevent	CommonUtilities/Core.script
+2024-01-16 21:16:27.353 +0530	LogWarning		Failed to Launch Application.	3	on_verifyevent	CommonUtilities/Core.script
+2024-01-16 21:16:27.535 +0530	capturescreen	C:/Users/durgaprasad.surath/OneDrive - Ideabytes/Documents/EggplantSuites/Personal/DemoApplications/Nopcommerces/Nopcommerce_FW.suite/Results/TestCases/TC01_ReadPriceOfDesktop/20240116_211623.045/HomePage_0001.png	UserCapturedScreenshot	B0C39B2D-3C6B-F303-5B12-46576BC4B4BF	2	on_capturescreenshot	CommonUtilities/Custom.script
+2024-01-16 21:16:27.594 +0530	EndTestCase		(Duration:"4.522", Errors:"0", Exceptions:"0", StartTime:"2024-01-16 21:16:23 +0530", Successes:"1", TestCase:"TestCases/TC01_ReadPriceOfDesktop.script", Warnings:"1")
+2024-01-16 21:16:27.627 +0530	SUCCESS		Execution Time 0:00:04 TestCases/TC01_ReadPriceOfDesktop.script

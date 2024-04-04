@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1706684178.0110002,
+	"ocrcapturestring": "n Microsoft Edge",
+	"originalcapturelocation": [
+		10,
+		423,
+		58,
+		73
+	],
+	"createddate": 1706684178.0110002,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "n Microsoft Edge",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[29,36]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					10,
+					423,
+					58,
+					73
+				],
+				"name": "Microsoft.png"
+			}
+	],
+	"name": "Microsoft"
+}

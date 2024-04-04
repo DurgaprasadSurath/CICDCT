@@ -1,0 +1,8 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+CommonUtilities/Core,Success,1,0,2024-04-03 10:44:29 +0530,2024-04-03 10:44:29 +0530,0:00:00
+TestCases/Testcase4_Registration,Success,1,0,2023-08-14 12:52:04 +0530,2023-08-14 12:52:04 +0530,0:00:23
+TestCases/TC01_NewRegister,Success,29,19,2024-01-16 21:16:23 +0530,2024-04-03 11:11:49 +0530,0:03:15
+TestCases/Testcase3_Books,Success,2,0,2023-08-14 12:42:34 +0530,2023-10-20 17:47:10 +0530,0:01:03
+TestCases/Testcase2_Clothing,Success,4,2,2023-08-14 12:31:38 +0530,2023-10-20 14:04:07 +0530,0:00:49
+TestCases/Testcase1_Computers,Success,15,4,2023-08-11 12:19:17 +0530,2023-10-20 12:51:51 +0530,0:01:19
+ApplicationUtilities/RegisterPage,Success,1,0,2024-04-03 09:53:27 +0530,2024-04-03 09:53:27 +0530,0:00:00

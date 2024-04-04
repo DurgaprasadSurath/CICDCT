@@ -1,0 +1,34 @@
+{
+	"lastmodifieddate": 1706684177.6830001,
+	"ocrcapturestring": "DxDiag.txt",
+	"originalcapturelocation": [
+		84,
+		377,
+		62,
+		20
+	],
+	"createddate": 1706684177.6830001,
+	"testlocationdata": [
+		{
+				"capturedocrtext": "DxDiag.txt",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[31,10]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					84,
+					377,
+					62,
+					20
+				],
+				"name": "DxDiagtxt.png"
+			}
+	],
+	"name": "DxDiagtxt"
+}
